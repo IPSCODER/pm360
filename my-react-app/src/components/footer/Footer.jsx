@@ -10,7 +10,7 @@ const Footer = () => {
         <div className={classes.about}>
           <Link to={"/"} ><img src={logo} className={classes.logo} alt="" /></Link>
           <p>
-            Providing valuable insights and guidance on mental health, personal growth, and well-being.
+          Lorem ipsum is a dummy or placeholder text commonly 
           </p>
         </div>
         <div className={classes.links}>

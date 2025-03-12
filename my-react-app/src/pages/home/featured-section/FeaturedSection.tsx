@@ -6,19 +6,19 @@ const featuredPosts = [
   {
     id: 1,
     title: "Overcoming Anxiety: A Guide to Calmness",
-    excerpt: "Learn effective strategies to manage anxiety and regain control of your emotions.",
+    excerpt: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not yet have content.",
     link: "/articles/overcoming-anxiety",
   },
   {
     id: 2,
     title: "The Power of Positive Thinking",
-    excerpt: "How positive thoughts can transform your life and mental health.",
+    excerpt: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not yet have content.",
     link: "/articles/positive-thinking",
   },
   {
     id: 3,
     title: "Building Stronger Relationships",
-    excerpt: "Discover ways to improve communication and strengthen relationships.",
+    excerpt: "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not yet have content.",
     link: "/articles/stronger-relationships",
   },
 ];
