@@ -29,7 +29,7 @@ const Input = ({
             placeholder={placeholder}
             className={clsx(classes.input, inputClass)}
           />
-          {error && <p className={clsx(classes.error,errorClass)}>{error.message}</p>}
+          {error && <p className={clsx(classes.errorText,errorClass)}>{error.message}</p>}
         </div>
       )}
     />
@@ -60,7 +60,7 @@ const Input = ({
               placeholder={placeholder}
               className={clsx(classes.text, textClass)}
             />
-            {error && <p className={clsx(classes.error,errorClass)}>{error.message}</p>}
+            {error && <p className={clsx(classes.errorText,errorClass)}>{error.message}</p>}
           </div>
         )}
       />

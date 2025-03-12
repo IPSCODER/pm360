@@ -36,7 +36,8 @@
     border-bottom: 2px solid var(--primary);
     outline: none;
 }
-.error{
-    font-size: 0.8rem;
-    color: red;
+.errorText{
+    font-size: 0.8rem !important;
+    color: rgba(255, 0, 0, 0.733) !important;
+    margin-bottom: 0 !important;
 }
