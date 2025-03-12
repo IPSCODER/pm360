@@ -82,6 +82,7 @@ color: var(--color);
       max-width: 100%;
       margin: 0 auto;
       padding-top: 2%;
+      gap: 10px;
     }
     
   .about{
