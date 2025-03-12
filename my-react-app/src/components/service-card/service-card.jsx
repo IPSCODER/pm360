@@ -3,20 +3,8 @@ import classes from "./service-card.module.css";
 import Button from '../../ui/button/Button';
 import { FaCheck } from 'react-icons/fa';
 
-type Plan = {
-  name: string;
-  originalPrice: number;
-  discountedPrice: number;
-};
 
-type ServiceCardProps = {
-  title: string;
-  features: string[];
-  plans: Plan[];
-  onSubscribe: () => void;
-};
-
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, features, plans, onSubscribe }) => {
+const ServiceCard = ({ title, features, plans, onSubscribe }) => {
   return (
     <div className={classes.card}>
       <h1>{title}</h1>

@@ -43,7 +43,7 @@ const Input = ({
     control,
     placeholder,
     containerClass,
-    labelClass,
+    labelClass,error,
     textClass,
     errorClass
   }) => {

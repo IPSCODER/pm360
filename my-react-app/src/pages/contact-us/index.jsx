@@ -19,7 +19,7 @@ const ContactUsPage = () => {
     defaultValues: { name: "", email: "" },
   });
 
-  const onSubmit = (data: any) => {
+  const onSubmit = (data) => {
     console.log("Form Data:", data);
   };
 

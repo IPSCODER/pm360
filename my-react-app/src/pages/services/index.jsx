@@ -3,13 +3,6 @@ import classes from "./service.module.css"
 import ServiceCard from '../../components/service-card/service-card'
 
 
-interface serviceTypes {
-  title:string,
-  features:string[],
-  plans:{name:string,originalPrice:number,discountedPrice:number}[]
-}
-
-
 const servicePlans = [{title:"Basic",features:[
     "Daily tips",
     "1 webinar from industry expert per month",
@@ -49,7 +42,7 @@ const ServicePage = () => {
       <h1 className={classes.title} >Choose Your Subscription Plan</h1>
 <div className={classes.plans} >
 {
-        servicePlans.map((item:serviceTypes,index:number)=>{
+        servicePlans.map((item,index)=>{
           return <React.Fragment key={index} >
             <ServiceCard
           title={item.title}

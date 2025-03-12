@@ -4,23 +4,14 @@ import Dropdown from "../dropdown/Dropdown";
 import styles from "./menuitems.module.css"; // Import CSS module
 import { Link } from "react-router-dom";
 
-interface MenuItem {
-    title: string;
-    submenu?: MenuItem[];
-}
 
-interface MenuItemsProps {
-    items: MenuItem;
-    depthLevel: number;
-}
-
-const MenuItems: React.FC<MenuItemsProps> = ({ items, depthLevel }) => {
+const MenuItems = ({ items, depthLevel }) => {
     const [dropdown, setDropdown] = useState(false);
-    const ref = useRef<HTMLLIElement>(null);
+    const ref = useRef(null);
 
     useEffect(() => {
-        const handler = (event: MouseEvent | TouchEvent) => {
-            if (dropdown && ref.current && !ref.current.contains(event.target as Node)) {
+        const handler = (event) => {
+            if (dropdown && ref.current && !ref.current.contains(event.target)) {
                 setDropdown(false);
             }
         };
