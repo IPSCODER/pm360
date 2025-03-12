@@ -62,3 +62,21 @@
     background-color: var(--secondary);
     border-color: var(--color);
 }
+
+
+@media screen and (max-width:768px) {
+    .card{
+        width: 100%;
+        min-height: 400px;
+        background-color: var(--color);
+        border-radius: 5px;
+        box-shadow: var(--shadow);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 350px;
+    }
+    
+    
+}
