@@ -25,11 +25,7 @@ const Header = () => {
         <img src={logo} className={classes.logo} alt="" /></Link>
 
         <React.Fragment>
-        <div className={isOpen ? "menutoggle active" : "menutoggle"} onClick={() => setIsOpen(!isOpen)} >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-        </div>    
+        
         <ul style={{right: isOpen ? 0 : "-100%"}} >
           <li>
             <Link to={"/"} >Home</Link></li>
@@ -48,8 +44,13 @@ const Header = () => {
         {/* <Navbar/> */}
         <ul>
           <li><Button variant='primary' >Login</Button></li>
-          <li><Button variant='secondary' >Apponitments</Button></li>
+          {/* <li><Button variant='secondary' >Apponitments</Button></li> */}
         </ul>
+        <div className={isOpen ? "menutoggle active" : "menutoggle"} onClick={() => setIsOpen(!isOpen)} >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+        </div> 
         </React.Fragment>
     </header>
   )

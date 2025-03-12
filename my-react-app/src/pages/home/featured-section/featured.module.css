@@ -20,7 +20,7 @@
   .postCard {
     background: var(--color);
     overflow: hidden;
-    max-width: 30%;
+    max-width: 420px;
     height: 300px;
     box-shadow: var(--shadow);
   }

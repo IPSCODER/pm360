@@ -19,7 +19,7 @@
   }
   
   .content h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: var(--secondary);
     text-align: end;
@@ -28,7 +28,7 @@
   .content p {
     font-size: 1.2rem;
     color: var(--color);
-    line-height: 1.6;
+    line-height: 1.5;
     margin-bottom: 15px;
     text-align: end;
   }
