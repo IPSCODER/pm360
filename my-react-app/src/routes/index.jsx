@@ -25,7 +25,7 @@ const routes = [
 ]
 
 
-const AppRoutes:React.FC = () => {
+const AppRoutes = () => {
   return useRoutes(routes)
 }
 
