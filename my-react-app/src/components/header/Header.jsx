@@ -25,7 +25,6 @@ const Header = () => {
         <img src={logo} className={classes.logo} alt="" /></Link>
 
         <React.Fragment>
-        
         <ul style={{right: isOpen ? 0 : "-100%"}} >
           <li>
             <Link to={"/"} >Home</Link></li>
