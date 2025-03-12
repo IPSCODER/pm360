@@ -68,8 +68,8 @@ color: var(--color);
   
   @media screen and (max-width:1000px) {
     .footer {
-      background-color: var(--color);
-      color: var(--primary);
+      background-color: var(--primary);
+      color: var(--color);
       padding: 2%;
       text-align: center;
       width: 100%;
@@ -82,8 +82,6 @@ color: var(--color);
       max-width: 100%;
       margin: 0 auto;
       padding-top: 2%;
-      gap: 20px;
-      border-top: 1px solid var(--primary);
     }
     
   .about{
@@ -123,7 +121,7 @@ color: var(--color);
   }
 
   .links ul a{
-  color: var(--primary);
+  color: var(--color);
   font-size: 0.7rem;
   }
   
