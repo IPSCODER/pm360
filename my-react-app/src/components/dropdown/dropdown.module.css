@@ -1,0 +1,50 @@
+.dropdown {
+  position: absolute;
+  right: 0;
+  left: auto;
+  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+              0 4px 6px -2px rgba(71, 63, 79, 0.16);
+  font-size: 0.875rem;
+  z-index: 9999;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: none;
+}
+
+/* Show dropdown when toggled */
+.show {
+  display: block;
+}
+
+/* Submenu positioning */
+.dropdown-submenu {
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+/* Mobile View */
+@media (max-width: 960px) {
+  .dropdown {
+    position: relative;
+    left: 0;
+    box-shadow: none;
+    width: 100%;
+    background: #fff;
+    display: none;
+    padding: 0;
+  }
+
+  .dropdown.show {
+    display: block;
+  }
+
+  .dropdown-submenu {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}

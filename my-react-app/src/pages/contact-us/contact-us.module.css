@@ -1,0 +1,125 @@
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 70px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.title{
+    font-size: 4rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.contact p{
+    margin-bottom: 2rem;
+color: var(--dark-gray);
+font-size: 1rem;
+}
+
+.title span{
+    color: var(--secondary);
+}
+
+
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color);
+    padding: 100px 50px;
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.form::after{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: var(--primary);
+    display: flex;
+    content: "";
+    z-index: -1;
+    top: -10%;
+    left: -5%;
+}
+
+/* .form::before{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: var(--primary);
+    display: flex;
+    content: "";
+    z-index: -1;
+    bottom: -10%;
+    right: -5%;
+} */
+
+@media screen and (max-width:750px) {
+    .contact{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        padding: 70px 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+
+    }
+    
+    .title{
+        font-size: 2.3rem;
+    }
+
+    .contact p{
+        margin-bottom: 2rem;
+    color: var(--dark-gray);
+    font-size: 0.7rem;
+    }
+    
+    .title span{
+        color: var(--secondary);
+    }
+    
+    
+    .form{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: var(--gray);
+        padding: 50px 20px;
+        position: relative;
+    }
+    
+    .form::after{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: var(--primary);
+        display: flex;
+        content: "";
+        z-index: -1;
+        top: -1%;
+        left: -1%;
+    }
+    
+    /* .form::before{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: var(--primary);
+        display: flex;
+        content: "";
+        z-index: -1;
+        bottom: -10%;
+        right: -10%;
+    } */
+}

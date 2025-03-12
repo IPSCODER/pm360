@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+
+
+:root {
+  --primary: #323156;
+  --secondary: #ff7f50;
+  --color: #ffffff;
+  --radius: 8px;
+  --transition: 0.3s ease-in-out;
+  --gray:#f9f9f9;
+  --dark-gray:#707070;
+  --shadow:0 2px 4px rgba(6, 17, 118, 0.08), 0 4px 12px rgba(6, 17, 118, 0.08);
+  /* border-bottom: 1px solid #d1d2e0; */
+  /* box-shadow: 0 2px 4px rgba(6, 17, 118, 0.08), 0 4px 12px rgba(6, 17, 118, 0.08); */
+}
+
+.menutoggle{
+  display: none;
+}
+
+
+@media screen and (max-width:1000px) {
+
+  .menutoggle{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2%;
+    z-index:1111;
+  }
+  
+  .menutoggle span{
+    display: block;
+    /* width: 33px; */
+    width: 26px;
+    height: 3px;
+    margin-bottom: 3px;
+    position: relative;
+    /* background: #cdcdcd; */
+    background: var(--primary);
+    border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+  }
+  
+  .menutoggle span:first-child{
+    transform-origin: 0% 0%;
+  }
+  
+  .menutoggle span:nth-last-child(2){
+    transform-origin: 0% 100%;
+    /* width: 25px; */
+  
+  }
+  
+  .menutoggle.active  span{
+    opacity: 1;
+    /* transform: rotate(45deg) translate(-2px, -1px); */
+    transform: rotate(45deg) translate(0px, -4px);
+    background: #232323;
+    
+  }
+  
+  .menutoggle.active  span:nth-last-child(2){
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  
+  }
+  .menutoggle.active   span:nth-last-child(1){
+    transform: rotate(-45deg) translate(0, 0px);
+  
+  }
+
+}

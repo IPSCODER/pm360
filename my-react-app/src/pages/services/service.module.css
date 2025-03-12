@@ -1,0 +1,35 @@
+.services{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+    background-color: var(--gray);
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.plans{
+    display: flex;
+    gap: 15px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.title{
+    font-size: 2rem;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:768px)  {
+    .title{
+        font-size: 1.2rem;
+        color: var(--primary);
+    }
+}

@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label{
+    font-size: 0.9rem;
+    color: var(--primary);
+}
+
+.input{
+    padding: 5px 10px ;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    outline: none;
+    background-color: transparent;
+}
+
+.input:focus{
+    border-bottom: 2px solid var(--primary);
+    outline: none;
+}
+
+.text{
+    padding: 5px 10px ;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    outline: none;
+    background-color: transparent;   
+}
+
+.text:focus{
+    border-bottom: 2px solid var(--primary);
+    outline: none;
+}
+.error{
+    font-size: 0.8rem;
+    color: var(--secondary);
+}

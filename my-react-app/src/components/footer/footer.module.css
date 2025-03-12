@@ -1,0 +1,146 @@
+.footer {
+    background-color: var(--primary);
+    color: var(--color);
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    gap: 2%;
+  }
+  
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
+.about .logo{
+  width: 200px;
+}
+
+.about p{
+  font-size: 12px;
+  width: 300px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.links ul a{
+color: var(--color);
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.socialIcons{
+  display: flex;
+  gap: 10px;
+}
+  
+  .bottom {
+    margin-top: 20px;
+    border-top: 1px solid var(--color);
+    padding-top: 15px;
+  }
+  
+  @media screen and (max-width:1000px) {
+    .footer {
+      background-color: var(--color);
+      color: var(--primary);
+      padding: 2%;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 0 auto;
+      padding-top: 2%;
+      gap: 20px;
+      border-top: 1px solid var(--primary);
+    }
+    
+  .about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .about .logo{
+    width: 200px;
+  }
+  
+  .about p{
+    font-size: 0.7rem;
+    width: 300px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  .links{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .links h3{
+    font-size: 1rem;
+  }
+
+  .links ul a{
+  color: var(--primary);
+  font-size: 0.7rem;
+  }
+  
+  .social{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+  }
+  .socialIcons{
+    display: flex;
+    gap: 10px;
+  }
+    
+    .bottom p {
+      font-size: 0.7rem;
+    }
+    
+  }

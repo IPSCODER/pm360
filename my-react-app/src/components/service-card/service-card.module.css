@@ -1,0 +1,64 @@
+.card{
+    width: 100%;
+    min-height: 30vw;
+    background-color: var(--color);
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+}
+
+
+
+.card h1{
+    color: var(--primary);
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 0.8rem;
+    color: var(--dark-gray);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+
+.plan{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary);
+}
+
+.plan del{
+    margin-left: auto;
+    font-size: 0.6rem;
+}
+
+.plan b{
+    font-size: 0.9rem;
+}
+
+
+
+
+.btn{
+    width: 100%;
+    background-color: var(--secondary);
+    border-color: var(--color);
+}

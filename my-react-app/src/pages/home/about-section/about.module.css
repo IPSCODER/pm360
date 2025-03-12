@@ -1,0 +1,82 @@
+.about {
+    width: 100%;
+    height: max-content;
+    background: url('https://www.online-therapy.com/images/science_1440.jpg') center/cover no-repeat;;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 100px 2%;
+    
+  }
+  
+
+  
+  .content {
+    flex: 1;
+    max-width: 550px;
+    text-align: left;
+  }
+  
+  .content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--secondary);
+    text-align: end;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: var(--color);
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: end;
+  }
+
+  .content button{
+    float: right;
+  }
+
+  @media screen and (max-width:1000px) {
+    .about {
+      width: 100%;
+      height: 60vh;
+      background: url('https://www.online-therapy.com/images/science_1440.jpg') center/cover no-repeat;;
+      background-color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      padding: 0 2%;
+    }
+    
+  
+    
+    .content {
+      flex: 1;
+      max-width: 550px;
+    }
+    
+    .content h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: var(--secondary);
+      text-align: start;
+    }
+    
+    .content p {
+      font-size: 1rem;
+      color: var(--color);
+      line-height: 1.2;
+      margin-bottom: 15px;
+      text-align: start;
+    }
+  
+    .content button{
+      float: left;
+    }
+
+    .btns{
+      width: 100%;
+    }
+  }
+  
