@@ -67,7 +67,7 @@
 @media screen and (max-width:768px) {
     .card{
         width: 100%;
-        min-height: 400px;
+        min-height: 550px;
         background-color: var(--color);
         border-radius: 5px;
         box-shadow: var(--shadow);
