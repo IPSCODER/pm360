@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <footer className={classes.footer}>
-        <iframe style={{position:"fixed",bottom:"25px",right:"25px"}} id="chatWithMe" title="Chat with Me" width="300" height="400" src="https://nyskdwg8.chat.qbusiness.us-west-2.on.aws/"> </iframe>
+        <iframe style={{position:"fixed",bottom:"25px",right:"25px"}} id="chatWithMe" title="Chat with Me" width="600" height="600" src="https://nyskdwg8.chat.qbusiness.us-west-2.on.aws/"> </iframe>
       <div className={classes.container}>
         <div className={classes.about}>
           <Link to={"/"} ><img src={logo} className={classes.logo} alt="" /></Link>
