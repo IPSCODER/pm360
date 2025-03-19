@@ -3,6 +3,7 @@ import Header from '../components/header/Header'
 import { Outlet } from 'react-router-dom'
 import Footer from '../components/footer/Footer'
 import classes from "./theme.module.css"
+import ChatBot from '../components/chat-bot/ChatBot'
 
 const Theme = () => {
   return (
@@ -12,6 +13,7 @@ const Theme = () => {
     <Outlet/>
     </main>
     <Footer/>
+    <ChatBot/>
     </React.Fragment>
   )
 }
