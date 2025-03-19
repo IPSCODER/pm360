@@ -57,4 +57,5 @@
     height: calc(100% - 30px);
     background-color: #fff;
     margin-top: auto;
+    position: relative;
 }
