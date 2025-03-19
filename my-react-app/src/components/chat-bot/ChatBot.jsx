@@ -13,7 +13,7 @@ const ChatBot = () => {
       className={classes.parent}
       onClick={toggleChatbot}
       style={{
-        width: expanded ? "600px" : "50px",
+        width: expanded ? "650px" : "50px",
         height: expanded ? "490px" : "50px",
         borderRadius:expanded ? "2px" : "50%"
       }}
