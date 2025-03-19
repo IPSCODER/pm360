@@ -24,7 +24,7 @@ const ChatBot = () => {
             <span>x</span>
             </span>}
       {expanded && <div className={classes.child} >
-      <iframe id="chatWithMe" title="Chat with Me" width="100%" height="100%" src="https://nyskdwg8.chat.qbusiness.us-west-2.on.aws/"> </iframe>  
+      <iframe id="chatWithMe" scrolling="yes" style={{width:"100%",height:"100%",overflow:"auto",border:"none"}} title="Chat with Me" width="100%" height="100%" src="https://nyskdwg8.chat.qbusiness.us-west-2.on.aws/"> </iframe>  
          </div>}
     </div>
   );
